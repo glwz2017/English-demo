@@ -1,0 +1,325 @@
+@charset "UTF-8";
+//清除默认样式与导入自定义字体
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  overflow-x: hidden;
+}
+//img{
+//  display: inline-block;
+//  height: auto;
+//  max-width: 100%;
+//}
+@font-face{
+  font-family: myfont;
+  src:url("../fonts/glyphicons-halflings-regular.eot"),url("../fonts/glyphicons-halflings-regular.svg")
+,url("../fonts/glyphicons-halflings-regular.ttf"),url("../fonts/glyphicons-halflings-regular.woff"),
+  url("../fonts/glyphicons-halflings-regular.woff2");
+}
+//
+.nav-top{
+  background-color: #8d8d8d;
+  color: white;
+  div{
+    div{
+      height: 35px;
+      line-height: 35px;
+    }
+  }
+}
+.version-text{
+  a{
+    display: inline-block;
+    width:45px;
+    margin-left: 11px;
+    color: white;
+    text-align:center;
+  }
+  a:hover{
+    background-color: #d5d5d5;
+  }
+}
+//模态框
+.inputs{
+  input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+.sign-in{
+  color: rgba(211, 211, 211, 0.96);
+}
+//二级导航
+.second-nav-top{
+  margin-bottom: 0px;
+}
+.second-nav{
+  ul{
+    li{
+      width: 107px;
+      text-align: center;
+    }
+    li:hover{
+      background-color: #d5d5d5;
+    }
+  }
+}
+//二级导航下拉菜单
+.more-message{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  li{
+   line-height: 3.5;
+  }
+  a{
+    color: white;
+  }
+  ul{
+    li{
+     a{
+       color: white;
+     }
+    }
+  }
+ a:hover{
+   background-color: #d5d5d5;
+ }
+}
+//申请
+.apply-for{
+  background-color: #343434;
+  height: 120px;
+}
+.apply-for-text{
+  color:white;
+  margin-top: 10px;
+  div{
+    p{
+      color: #676767;
+    }
+  }
+}
+.now-apply-for{
+  text-align: center;
+  display: inline-block;
+  width: 150px;
+  height: 35px;
+  line-height: 35px;
+  background-color: yellow;
+}
+.free-demo{
+    margin-top: 20px;
+}
+//分析图
+.learn-english{
+  color: #02a181;
+}
+.data-distribution{
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+position: relative;
+  z-index: 2;
+}
+.analyze{
+  background-color: #02a181;
+}
+.data-text{
+  color: white;
+}
+//卡通头像
+.toon{
+  position: relative;
+  z-index: 1;
+  background:url("../image/bg.jpg")no-repeat;
+  background-size: cover;
+  margin-top: -90px;
+  height: auto;
+}
+.toon-text{
+  color: white;
+  span{
+    color:yellow;
+  }
+}
+.toon-person-text{
+  h4,p{
+    color: white;
+  }
+}
+//师资力量
+.teacher-one{
+  min-height: 350px;
+  background: url("../image/oleg.png")center no-repeat;
+  background-size: cover;
+  border-bottom: solid 5px #f6f792;
+  div{
+    margin-right: 20px;
+    color: white;
+  }
+}
+.teacher-two{
+  min-height: 350px;
+  background: url("../image/oksana.png")no-repeat;
+  background-size: cover;
+  border-bottom: solid 5px #f6f792;
+  div{
+    margin-left: 20px;
+    color: white;
+  }
+}
+.teacher-three{
+  min-height: 200px;
+  background: url("../image/ewelina.png")center no-repeat;
+  background-size: cover;
+  border-bottom: 5px solid #f6f792;
+  div{
+    color: white;
+    margin-right: 20px;
+  }
+}
+.teacher-four{
+  min-height: 200px;
+  background: url("../image/juraj.png")center no-repeat;
+  background-size: cover;
+  border-bottom: 5px solid #f6f792;
+  div{
+    color: white;
+    margin-right: 20px;
+  }
+}
+.teacher-five{
+  display: block;
+  min-height: 200px;
+  line-height: 30px;
+  padding-top: 45px;
+  color: #fff;
+  background-color: #eb7085;
+  opacity: .75;
+  border-bottom: 5px solid #f6f792;
+  margin-top: 20px;
+}
+//
+.course-system{
+  margin-top: 0px;
+  div:nth-of-type(2n+1){
+    background-color: #df6b88;
+  }
+  div:nth-of-type(2n){
+    background-color: #e68ea4;
+  }
+ div{
+   padding: 0px;
+   margin-top: -10px;
+ }
+}
+.general-speaking{
+  display:block;
+  height: 100px;
+h4{
+  line-height: 100px;
+  color: white;
+}
+}
+.course-system2{
+  margin-top: 0px;
+  div:nth-of-type(2n+1){
+    background-color: #e68ea4;
+  }
+  div:nth-of-type(2n){
+    background-color: #df6b88;
+  }
+}
+//爱有力量
+.power1{
+  background: url("../image/01.jpg")no-repeat;
+  background-size: cover;
+  min-height: 219px;
+  border-bottom: 5px solid #f6f792;
+}
+.power2{
+   background: url("../image/02.jpg")no-repeat;
+   background-size: cover;
+   min-height: 219px;
+   border-bottom: 5px solid #f6f792;
+ }
+.power3{
+  background: url("../image/03.jpg")no-repeat;
+  background-size: cover;
+  min-height: 219px;
+  border-bottom: 5px solid #f6f792;
+}
+.power-text{
+  color: #02a181;
+}
+.teacher-pic{
+  position: relative;
+  z-index: 2;
+}
+.teacher-pic-text{
+  position: relative;
+  z-index: 1;
+  background-color: #02a181;
+  margin-top: -100px;
+  div{
+    div{
+h3,p{
+  color: white;
+}
+    }
+  }
+}
+//0风险
+.zero{
+  background: url("../image/bg2.jpg") no-repeat;
+  background-size: cover;
+}
+.zero-text{
+  color: white;
+}
+//看世界
+.see-world{
+  background: url("../image/bg3.jpg")no-repeat;
+  background-size: cover;
+}
+.see-world-text{
+  color: white;
+  text-align: center;
+  //width: 260px;
+  height: 35px;
+  line-height: 35px;
+  background-color: rgba(0,0,0,.3);
+}
+.img-width{
+  width: 100%;
+}
+//学习流程
+.round{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: #02a181;
+  color: white;
+  margin-top: -20px;
+}
+.vip-sign{
+  border: 1px dashed #02a181;
+  margin-top: 30px;
+}
+//企业荣誉
+.honor{
+  background: url("../image/bg.png")no-repeat;
+  background-size: cover;
+}
+//底部
+.footer{
+  background-color: #333333;
+}
+.footer-text{
+ p{
+   color: white;
+ }
+}
